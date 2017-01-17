@@ -2,13 +2,6 @@
 #ifndef TCPLISTENER_H
 #define TCPLISTENER_H
 
-#define FOR(q,n) for(int q=0;q<n;q++)
-#define SFOR(q,s,e) for(int q=s;q<=e;q++)
-#define RFOR(q,n) for(int q=n;q>=0;q--)
-#define RSFOR(q,s,e) for(int q=s;q>=e;q--)
-
-#define ESZ(elem) (int)elem.size()
-
 #include <WinSock2.h>
 #include <WS2tcpip.h>
 #include <Windows.h>
